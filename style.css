@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat');
+#zoom:hover {
+    transform: scale(1.1);
+    transition: 0.5s;
+}
+
+body {
+    font-family: 'Montserrat' !important;
+    overflow-x: hidden;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.nav-link {
+    font-size: 17px !important;
+}
+
+footer>.col-md-3>ul>li>a {
+    color: whitesmoke !important;
+}
+
+footer>.col-md-3>ul>li {
+    list-style: none !important;
+}
+
+.trials {
+    background-color: #F96D45 !important;
+    color: white;
+}
+
+.btn:focus {
+    border: 1px solid white !important;
+    box-shadow: 0 0 0 white !important;
+}
+
+p {
+    font-size: 20px;
+}
+
+header {
+    font-size: 30px !important;
+}
+
+.hero2 {
+    position: relative;
+    top: -53%;
+    left: 30%;
+    z-index: 2 !important;
+}
+
+.card-header {
+    padding: 2px 5px 2px 5px !important;
+    background: white !important;
+    border-bottom: 1px solid grey;
+}
+
+.card {
+    border: none !important;
+    border-bottom: 1px solid lightgrey !important;
+}
+
+.middle-section {
+    position: absolute;
+    z-index: 3 !important;
+    width: 100%;
+}
+
+
+/* Extra small devices 300px*/
+
+@media only screen and (max-width:360px) {
+    .middle-section {
+        position: absolute !important;
+        z-index: 3 !important;
+        width: 110% !important;
+    }
+    body {
+        width: 110% !important;
+    }
+    footer {
+        font-size: 11px;
+    }
+}
+
+.onShop {
+    font-size: 30px !important;
+}
+
+
+/* Extra small devices 600px and below*/
+
+@media only screen and (max-width:600px) {
+    .onShop {
+        font-size: 20px !important;
+    }
+    .hero2 {
+        left: 5%;
+    }
+    .hero1 {
+        position: relative;
+        left: -15%;
+    }
+    .middle-section {
+        margin-top: -180%;
+    }
+    footer {
+        font-size: 12px;
+    }
+}
+
+
+/* small devices 600px and above*/
+
+@media only screen and (min-width:600px) {
+    .onShop {
+        font-size: 20px;
+    }
+    .hero2 {
+        left: 5%;
+    }
+    .hero1 {
+        position: relative;
+        left: -15%;
+    }
+    .middle-section {
+        margin-top: -170%;
+    }
+}
+
+
+/* medium devices 768px and above*/
+
+@media only screen and (min-width: 768px) {
+    .middle-section {
+        margin-top: -70%;
+    }
+}
+
+
+/*large Desktop Device 992 and above*/
+
+@media only screen and (min-width: 992px) {
+    .middle-section {
+        margin-top: -68%;
+    }
+}
+
+
+/* Extra large devices 1200 and above*/
+
+@media only screen and (min-width: 1200px) {
+    .middle-section {
+        margin-top: -67%;
+    }
+}
